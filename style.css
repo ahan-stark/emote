@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .emoji {
+    font-size: 30rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .alpha{
+      font-size: x-large;
+      font-weight: bolder;
+  }
+  
+  .happy {
+    display: none;
+  }
+  
+  .sad {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
